@@ -169,6 +169,7 @@ header{
     
             .firstView_inner_container{
                 width: 768px;
+                align-items: start;
             }
 
             .firstView_inner_container h1{
@@ -180,13 +181,13 @@ header{
             .firstView_inner_container h2{
                 font-size: 32px;
                 text-align: start;
-                top: 70px;
+                top: 157px;
                 text-shadow: 3px 3px 4px #fcfcfc;
                 line-height: 3rem;
             }
 
             .product_name{
-                top: 120px;
+                top: 327px;
                 margin-left: 0px;
                 width: 362px;
             }
@@ -196,7 +197,7 @@ header{
             }
 
             .cta_button{
-                top: 160px;
+                top: 427px;
                 margin-left: 0px;
                 width: 350px;
             }
@@ -206,7 +207,7 @@ header{
             }
 
             .firstView_inner_container h3{
-                top: -280px;
+                top: 10px;
                 left: 448px;
                 font-size: 20px;
             }
@@ -453,3 +454,270 @@ header{
         width: 300px;
     }
 }
+
+/*SOLUTION -MOBILE-*/
+.solution_container{
+    width: 100%;
+    height: 3270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEECD2;
+}
+
+    .solution_heading_container{
+        width: 357px;
+        height: 64px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: solid 0.5px #343434;
+    }
+
+        .solution_heading_container h2{
+            font-family: "Noto Serif JP", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 20px;
+        }
+
+    .solution_overview_container{
+        width: 330px;
+        height: 130px;
+        margin-top: 20px;
+        background-color: #fcfcfc;
+    }
+
+        .solution_overview_inner_container{
+            width: 330px;
+            height: 55px;
+            border: solid 0.5px red;
+        }
+
+            .solution_overview_inner_container p{
+                font-family: "Shippori Mincho", serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 16px;
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+
+    .solution_attention_container{
+        width: 330px;
+        height: 69px;
+        border: solid 0.5px #343434;
+    }
+
+        .solution_attention_container p{
+            font-family: "Shippori Mincho", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 1.5rem;
+        }
+
+/*SOLUTION -SE or 13MINI-*/
+@media(max-width: 300px){
+    .solution_attention_container p{
+        font-size: 14px;
+    }
+
+    .solution_attention_container{
+        width: 300px;
+    }
+
+    .solution_overview_inner_container p{
+        font-size: 14px;
+    }
+
+    .solution_overview_inner_container{
+        width: 300px;
+    }
+    
+    .solution_overview_container{
+        width: 300px;
+    }
+    
+    .solution_heading_container h2{
+        font-size: 16px;
+    }
+    
+    .solution_heading_container{
+        width: 300px;
+    }
+}
+
+/*SOLUTION -DESKTOP-*/
+@media(min-width: 768px){
+    .solution_attention_container{
+        width: 768px;
+    }
+
+    .solution_heading_container{
+        flex-direction: row;
+        gap: 0;
+        width: 768px;
+    }
+
+    .solution_heading_container h2{
+        font-size: 22px;
+    }
+
+    .solution_overview_container{
+        width: 768px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .solution_overview_inner_container{
+        width: 384px;
+        height: 65px;
+    }
+
+    .solution_overview_inner_container p{
+        font-size: 18px;
+    }
+}
+
+    .solution_course_container{
+        width: 350px;
+        height: 712px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: solid 0.5px #343434;
+    }
+
+    .course_first{
+        margin-top: 27px;
+    }
+
+        .solution_course_image_container{
+            width: 350px;
+            height: 350px;
+            display: grid;
+            place-items: center;
+            background-color: aquamarine;
+        }
+
+            .solution_course_image_container p{
+                font-family: "Shippori Mincho", serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 16px;
+                color: #fcfcfc;
+            }
+
+        .course_first_image{
+            background-image: url(../img/solution.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .solution_course_text_container{
+            width: 350px;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #FAED00;
+        }
+
+            .solution_course_text_container h3{
+                font-family: "Shippori Mincho", serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 16px;
+                margin-top: 20px;
+                text-align: center;
+                margin-bottom: 20px;
+                border: solid 0.5px #343434;
+            }
+
+            .solution_course_text_inner_container{
+                width: 330px;
+                height: auto;
+                display: flex;
+                border: solid 0.5px #343434;
+            }
+
+                .solution_course_text_inner_container p{
+                    font-family: "Shippori Mincho", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 1.5rem;
+                    border: solid 0.5px red;
+                }
+
+                .course_text_left{
+                    width: 70px;
+                }
+
+                .course_text_right{
+                    width: 260px;
+                }
+
+                @media(max-width: 350px){
+                    .course_text_right{
+                        width: 240px;
+                    }
+
+                    .course_text_left{
+                        width: 60px;
+                    }
+
+                    .solution_course_text_inner_container p{
+                        font-size: 14px;
+                    }
+
+                    .solution_course_text_inner_container{
+                        width: 300px;
+                    }
+    
+                    .solution_course_text_container{
+                        width: 300px;
+                    }
+        
+                    .solution_course_image_container{
+                        width: 300px;
+                    }
+        
+                    .solution_course_container{
+                        width: 300px;
+                    }
+                }
+
+                .solution_course_text_inner_container:not(:first-child){
+                    margin-top: 10px;
+                }
+
+        /*SOLUTION -DESKTOP-*/
+        @media(min-width: 768px){
+            .solution_container{
+                height: auto;
+            }
+
+            .solution_course_container{
+                flex-direction: row;
+                justify-content: center;
+                gap: 20px;
+                width: 768px;
+                height: 350px;
+            }
+
+            .course_first{
+                flex-direction: row-reverse;
+            }
+
+            .solution_course_image_container, .solution_course_text_container{
+                width: 374px;
+            }
+        }

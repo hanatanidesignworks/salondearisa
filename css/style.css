@@ -611,7 +611,7 @@ header{
             }
 
         .course_first_image, .course_second_image, .course_third_image, .course_forth_image{
-            background-image: url(../img/solution.jpg);
+            background-image: url(../img/solution1_ver2.jpg);
             background-size: cover;
             background-position: center;
         }
